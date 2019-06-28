@@ -12,6 +12,7 @@ admin.autodiscover()
 # path('blog/', blog.urls, name="blog")
 #
 # Learn more here: https://docs.djangoproject.com/en/2.1/topics/http/urls/
+print('testingi automatic deploy')
 
 urlpatterns = [
     path("admin/", admin.site.urls),
